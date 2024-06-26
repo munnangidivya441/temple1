@@ -1,0 +1,277 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:40px;
+    width:cover;
+    background-color:rgb(17, 97, 17);
+    text-align: left;
+    color:#ffffff;
+    padding:15px;
+    font-size:10px;
+
+}
+.container1{
+    height:max-content;
+    width:cover;
+    background-color:#ffffff;
+    justify-content: center;
+    text-align:center;
+    padding:0px;
+
+
+}
+.store{
+    height:60px;
+    width:560px; 
+    padding:5px;
+}
+h1{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0px;
+    margin:0px;
+    color:#3d251e;
+}
+.navbar{
+
+    background-color:#ffffff;
+    text-align:center;
+    width:100%;
+    margin-left:30%;
+    padding: 20px;
+    color:black;
+    cursor: pointer;
+}
+.nav-links{
+    display:flex;
+    align-items:center;
+}
+.nav-links li{
+    margin:0 20px;
+    list-style-type: none;
+}
+.active {
+    text-decoration:underline ;
+    font-weight:normal;
+    color:green;
+    text-decoration-color: orange;
+}
+.container2{
+    height: 350px;
+    width:cover;
+    background-color:rgb(17, 97, 17);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+.container2 img{
+    height:300px;
+}
+.container2 h2,h3{
+    margin:0;
+    color:#ffffff;
+    padding:10px;
+}
+.container2 p{
+    color:#ffffff;
+    padding:10px;
+    
+}
+.container2 a{
+    text-decoration: none;
+    font-size:15px;
+    height:70px;
+    width:80px;
+    background-color:orange;
+    font-weight: 500;
+    border-radius:5px;
+    color: white;
+}
+.container3{
+    height: 350px;
+    width:cover;
+    background-color:#f8efe1;
+    padding: 40px;
+}
+#History h3{
+    color:rgb(17, 97, 17);
+}
+#History p{
+    color:rgb(60, 59, 59);
+}
+#History .container4{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.container4 img{
+    height:300px;
+}
+#Ourservices{
+    height: min-content;
+    width:cover;
+    background-color:#ffffff;
+    padding: 20px;
+}
+.title h1{
+    text-align:center;
+    padding-top:10px ;
+}
+.services{
+    width:85%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:30px;
+    text-align:center;
+}
+.card{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: column;
+    margin:0px 30px;
+    padding:10px;
+    background-color:rgb(184, 184, 249);
+    border-radius: 5px;
+}
+#Events{
+    height: 330px;
+    width:cover;
+    background-color:#f8efe1;
+
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.card2 {
+    width:90%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin:20px;
+    text-align:center;
+    color:rgb(52, 49, 49);
+}
+#schedule{
+    height:500px;
+    width:cover;
+    background-color: #ffffff;
+}
+.card4{
+    padding-top:30px;
+    padding-left: 150px;
+
+}
+.row {
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    margin:20px;
+    text-align:left;
+    color:rgb(17, 17, 17);
+    padding-left: 120px;
+
+}
+
+.col img{
+    height:100px;
+    width:100px;
+    float:left;
+    margin:10px;
+}
+.card5{
+    height:350px;
+    width:cover;
+    background-color:#f8efe1;
+}
+.stay{
+    height:200px;
+    width:200px;
+}
+.card6{
+    height:250px;
+    width:cover;
+    background-color:yellow;
+}
+.card7{
+    height:100px;
+    width:cover;
+    background-color:rgb(17, 97, 17);
+}
+
+.icon1 img{
+    height:180px;
+    width:330px;
+}
+.icon3 img{
+    height:180px;
+    width:200px;
+}
+.card3{
+    margin: 10px;;
+}
+.icon4 img{
+    height:180px;
+    width:200px;
+}
+.icon img{
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    border-color: black;
+}
+.container2 .text h2{
+    font-family: 'Brush Script MT', cursive,sans-serif;
+    font-style: italic;
+    font-weight:lighter;
+}
+.container3 h1{
+    font-family: 'Brush Script MT', cursive,sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 50px;
+    
+
+}
+.title h1{
+    font-family: 'Brush Script MT', cursive,sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 50px;
+}
+.title1 h1{
+    font-family: 'Brush Script MT', cursive,sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 50px;
+}
+.schedule1 h1{
+    font-family: 'Brush Script MT', cursive,sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
